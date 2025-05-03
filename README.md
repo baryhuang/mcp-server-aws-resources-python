@@ -1,3 +1,5 @@
+[![MseeP.ai Security Assessment Badge](https://mseep.net/pr/baryhuang-mcp-server-aws-resources-python-badge.png)](https://mseep.ai/app/baryhuang-mcp-server-aws-resources-python)
+
 # AWS Resources MCP Server
 
 [![Docker Hub](https://img.shields.io/docker/v/buryhuang/mcp-server-aws-resources?label=Docker%20Hub)](https://hub.docker.com/r/buryhuang/mcp-server-aws-resources)
