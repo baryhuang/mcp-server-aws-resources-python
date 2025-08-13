@@ -2,6 +2,11 @@
 
 [![Docker Hub](https://img.shields.io/docker/v/buryhuang/mcp-server-aws-resources?label=Docker%20Hub)](https://hub.docker.com/r/buryhuang/mcp-server-aws-resources)
 [![Docker Hub](https://img.shields.io/docker/pulls/buryhuang/mcp-server-aws-resources?label=Docker%20Hub)](https://hub.docker.com/r/buryhuang/mcp-server-aws-resources)
+
+<a href="https://glama.ai/mcp/servers/@baryhuang/mcp-server-aws-resources-python">
+  <img width="380" height="200" src="https://glama.ai/mcp/servers/@baryhuang/mcp-server-aws-resources-python/badge" alt="AWS Resources Server MCP server" />
+</a>
+
 ## Overview
 
 A Model Context Protocol (MCP) server implementation that provides running generated python code to query any AWS resources through boto3.
@@ -14,9 +19,6 @@ I didn't limit the operations to ReadyOnly, so that cautious Ops people can be h
 **Demo: Fix Dynamodb Permission Error**
 
 https://github.com/user-attachments/assets/de88688d-d7a0-45e1-94eb-3f5d71e9a7c7
-
-
-
 
 ## Why Another AWS MCP Server?
 I tried AWS Chatbot with Developer Access. Free Tier has a limit of 25 query/month for resources. Next tier is $19/month include 90% of the features I don't use. And the results are in a fashion of JSON and a lot of restrictions.
@@ -202,7 +204,6 @@ To publish the Docker image for multiple platforms, you can use the `docker buil
    ```bash
    docker buildx imagetools inspect buryhuang/mcp-server-aws-resources:latest
    ```
-
 
 ## Usage with Claude Desktop
 
